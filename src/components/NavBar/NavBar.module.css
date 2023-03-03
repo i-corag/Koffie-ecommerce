@@ -1,0 +1,28 @@
+nav {
+    width: 100%;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.logo {
+    width: 20%;
+    height: 4em;
+    margin-right: 5em;
+}
+
+.categories {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+}
