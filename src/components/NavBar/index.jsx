@@ -1,8 +1,6 @@
-import React from 'react'
 import styles from './NavBar.module.css'
-import { Grid, GridItem } from '@chakra-ui/react'
 import Logo from '../../assets/logo.svg'
-import CartWidget from '../CartWidget/CartWidget'
+import CartWidget from '../CartWidget'
 
 const NavBar = () => {
     return (
@@ -16,7 +14,6 @@ const NavBar = () => {
                 </div>
             </div>
             <CartWidget />
-
         </nav>
     )
 }
