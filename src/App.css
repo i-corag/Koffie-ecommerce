@@ -1,5 +1,4 @@
 #root {
     width: calc (100vw - (100vw - 100%));
     margin: 0;
-    padding: 0 2em;
 }

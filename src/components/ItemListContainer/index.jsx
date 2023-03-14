@@ -1,11 +1,14 @@
-import { Container } from '@chakra-ui/react'
+import ItemCard from "../ItemCard/ItemCard";
 
-const ItemListContainer = ({ gretting }) => {
+
+const ItemListContainer = ({ products }) => {
     return (
-        <Container m='3em' w='25' border='1px solid ' borderColor='secondary' color='secondary'>
-            {gretting}
-        </Container>
-    )
-}
+        <ul>
+            {products.map((product) => {
+                return <ItemCard key={product.id} product={product} />
+            })}
+        </ul>
+    );
+};
 
 export default ItemListContainer; 

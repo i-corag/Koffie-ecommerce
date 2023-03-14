@@ -1,9 +1,10 @@
 nav {
     width: 100%;
-    padding: 1em 2em;
+    padding: 1em 4em;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    border-bottom: .5px solid #968452;
 }
 
 .container {
@@ -14,9 +15,15 @@ nav {
 }
 
 .logo {
+    position: relative;
     width: 20%;
     height: 4em;
     margin-right: 5em;
+}
+
+.logo img {
+    position: absolute;
+    bottom: 4px;
 }
 
 .categories {
