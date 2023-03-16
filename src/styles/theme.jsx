@@ -4,6 +4,7 @@ const theme = extendTheme({
     colors: {
         primary: 'black',
         secondary: '#968452',
+        tertiary: '#887A53',
     },
     styles: {
         global: {
@@ -24,7 +25,6 @@ const theme = extendTheme({
     components: {
         Button: {
             variants: {
-                // add a new visual variant
                 'koffie': {
                     color: 'primary',
                     bg: 'transparent',
@@ -36,8 +36,39 @@ const theme = extendTheme({
                         transform: 'scale(1.02)',
                     },
                 },
+                'koffie-solid': {
+                    color: 'primary',
+                    bg: 'secondary',
+                    _hover: {
+                        boxShadow: 'md',
+                        bg: 'tertiary',
+                        border: '1px solid',
+                        borderColor: 'secondary',
+                        transform: 'scale(1.02)',
+                    },
+                },
             },
         },
+
+        Heading: {
+            font: ` 'Barlow','sans-serif' `,
+            letterSpacing: '0.08em',
+            variants: {
+                'koffie': {
+                    color: 'secondary',
+                },
+                'title': {
+                    fontSize: 'md',
+                    py: '.3em',
+                    lineHeight: 'medium',
+                }
+            },
+        },
+
+        Text: {
+            font: ` 'Barlow','sans-serif' `,
+            letterSpacing: '0.08em',
+        }
     }
 });
 

@@ -1,0 +1,23 @@
+.container {
+    width: 80vw;
+    height: 500px;
+    margin: 2em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer {
+    width: 50%;
+}
+
+.imageContainer img {
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+}
+
+.textContainer {
+    width: 80%;
+    padding: 1em;
+}
