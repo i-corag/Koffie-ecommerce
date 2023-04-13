@@ -1,0 +1,30 @@
+.dropdown {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  list-style-type: none;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: #968452;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.menu > li {
+  text-align: center;
+  padding: 0.2em;
+  border-radius: 5px;
+}
+
+.menu > li:hover {
+  background-color: lightgray;
+}
+
+.errorMsg {
+  width: 100%;
+  padding: 14px;
+  background-color: #f0d0d3;
+  color: #df786f;
+}
