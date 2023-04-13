@@ -1,10 +1,11 @@
-import { useParams } from "react-router-dom";
-import ItemCard from "../ItemCard";
 import style from "./ItemListContainer.module.css";
+import { useParams } from "react-router-dom";
+import { useProductsContext } from "../../contexts/ProductsContext";
+import ItemCard from "../ItemCard";
 
+const ItemListContainer = () => {
 
-
-const ItemListContainer = ({ products }) => {
+    const { products } = useProductsContext();
     const { categoryId } = useParams();
     const category = products.filter((product) => product.category == categoryId);
 

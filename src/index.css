@@ -4,7 +4,10 @@
   box-sizing: border-box;
   background-clip: border-box;
 }
-
+#root {
+  width: calc (100vw - (100vw - 100%));
+  margin: 0;
+}
 :root {
   font-family: 'Barlow', 'sans-serif';
   line-height: 1.5;
@@ -38,4 +41,3 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-

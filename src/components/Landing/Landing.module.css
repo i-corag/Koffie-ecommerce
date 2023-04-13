@@ -1,0 +1,13 @@
+.container {
+  margin: 1em auto;
+  width: 90%;
+  height: 400px;
+}
+
+.container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  align-self: flex-start;
+  border-radius: 20px;
+}

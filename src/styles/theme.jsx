@@ -4,7 +4,7 @@ const theme = extendTheme({
     colors: {
         primary: 'black',
         secondary: '#968452',
-        tertiary: '#887A53',
+        terciary: '#887A53',
     },
     styles: {
         global: {
