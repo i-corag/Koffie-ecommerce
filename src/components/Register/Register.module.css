@@ -1,0 +1,32 @@
+.container {
+  width: 40%;
+  margin: 3em auto;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_container input {
+  width: 70%;
+  height: 35px;
+  padding: 0.5em;
+  margin: 0.7em 0;
+  border-radius: 5px;
+  border: 1px solid #968452;
+}
+.successMsg {
+  width: 100%;
+  padding: 14px;
+  background-color: #dff0d8;
+  color: #468847;
+}
+.errorMsg {
+  width: 100%;
+  padding: 14px;
+  background-color: #f0d0d3;
+  color: #df786f;
+}
